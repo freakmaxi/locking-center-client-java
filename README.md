@@ -10,24 +10,25 @@ The client has **no dependencies** beyond the JDK (Java 21 or newer).
 
 ## Installation
 
-With Maven, build and install the artifact into your local repository:
-
-```shell
-mvn install
-```
-
-then depend on it:
+Available on [Maven Central](https://central.sonatype.com/artifact/io.github.freakmaxi/locking-center-client). With
+Maven:
 
 ```xml
 <dependency>
-    <groupId>com.freakmaxi</groupId>
+    <groupId>io.github.freakmaxi</groupId>
     <artifactId>locking-center-client</artifactId>
     <version>1.0.0</version>
 </dependency>
 ```
 
-Without Maven, `./build.sh --no-test` produces `target/locking-center-client.jar` with a plain JDK; put it on your
-classpath.
+With Gradle:
+
+```groovy
+implementation("io.github.freakmaxi:locking-center-client:1.0.0")
+```
+
+Without a build tool, `./build.sh --no-test` produces `target/locking-center-client.jar` with a plain JDK; put it on
+your classpath.
 
 ## Quick start
 
