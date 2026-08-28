@@ -4,7 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.freakmaxi</groupId>
+    <!-- io.github.<user> is verifiable via GitHub; use com.freakmaxi only if you own freakmaxi.com -->
+    <groupId>io.github.freakmaxi</groupId>
     <artifactId>locking-center-client</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
@@ -19,6 +20,20 @@
             <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
     </licenses>
+
+    <developers>
+        <developer>
+            <id>freakmaxi</id>
+            <name>freakmaxi</name>
+            <url>https://github.com/freakmaxi</url>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:https://github.com/freakmaxi/locking-center-client-java.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/freakmaxi/locking-center-client-java.git</developerConnection>
+        <url>https://github.com/freakmaxi/locking-center-client-java</url>
+    </scm>
 
     <properties>
         <maven.compiler.release>21</maven.compiler.release>
