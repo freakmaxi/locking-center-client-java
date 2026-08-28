@@ -11,7 +11,7 @@
 
     <name>Locking-Center Java Client</name>
     <description>Java client for Locking-Center, a TCP mutex server</description>
-    <url>https://github.com/freakmaxi/locking-center</url>
+    <url>https://github.com/freakmaxi/locking-center-client-java</url>
 
     <licenses>
         <license>
